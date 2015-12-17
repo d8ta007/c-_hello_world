@@ -22,11 +22,16 @@ int main()
   /*Outputs a string, appends the number that was entered, and appends a enter key */
   cout << "Congratulations you have entered number: " << first_user_number << endl;
 
+  /* Ask for 2nd number to add */
   cout << "Enter a number: ";
+  
+  /* Store 2nd number in variable */
   cin >> second_user_number;
   
+  /* add the two numbers */
   total = first_user_number + second_user_number;
 
+  /*output total, and can replace total with (first_user_number + second_user_number) */
   cout << "Your Total is: " << total << endl;
 
   return 0;
